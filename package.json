@@ -28,14 +28,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agsanchezbau/portfolio-alba.git"
+    "url": "git+https://github.com/estherconh/portolioesther.git"
   },
   "keywords": [
     "npm",
     "boilerplate",
     "frontend"
   ],
-  "author": "Alba Gomez",
+  "author": "Esther Márquez",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
