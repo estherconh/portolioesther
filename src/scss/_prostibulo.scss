@@ -158,18 +158,21 @@ display: block;
   }
 }
 
-.leftside {
+.leftside_proyectos {
   width: 30%;
   float: left;
-  margin-left: 100px;
+  margin-left: 80px;
+  margin-top: 120px;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
+  margin-left: 1px;
+  margin-top: 120px;
   width: 50%;
   padding-bottom: 0;
   }
   /* Small */
   @media(max-width:767px){
-  width: 100%;
+  width: 10%;
   }
 }
 
@@ -202,79 +205,4 @@ footer
   bottom: 0;
   position: fixed;
   height: 65px;
-}
-
-.gridproyectos {
-  overflow: auto;
-  padding: 8em 0 0 0.5em;
-  max-width: 76em;
-  max-height: 76em;
-  margin: 0 auto;
-}
-.gridproyectos li {
-  padding: 0 0.5em 0.5em 0;
-}
-.gridproyectos li > div {
-  padding: 4em 2em;
-  text-align: center;
-}
-.gridproyectos li.wide {
-  width: 100%;
-}
-.gridproyectos li a {
-  color: #fff;
-}
-
-@media all and (min-width: 27em) {
-  .gridproyectos li {
-    width: 50%;
-    float: left;
-  }
-}
-
-@media all and (min-width: 40em) {
-  .gridproyectos li {
-    width: 33.3333333%;
-  }
-  .gridproyectos li.wide {
-    width: 66.666666%;
-  }
-}
-@media all and (min-width: 60em) {
-  .gridproyectos li {
-    width: 25%;
-  }
-  .gridproyectos li.wide {
-    width: 50%;
-  }
-}
-
-.gprostibulo {
-  background:url('../images/prostibulopoetico.png');
-  background-repeat: no-repeat;
-}
-
-.cyd {
-  background:url('../images/cyd.png');
-  background-repeat: no-repeat;
-}
-
-.activate {
-  background:url('../images/activate.png');
-  background-repeat: no-repeat;
-}
-
-.tuppr {
-  background:url('../images/tuppr.png');
-  background-repeat: no-repeat;
-}
-
-.doggies {
-  background:url('../images/doggies.png');
-  background-repeat: no-repeat;
-}
-
-.beehive {
-  background:url('../images/beehive.png');
-  background-repeat: no-repeat;
 }
