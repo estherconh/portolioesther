@@ -19,7 +19,7 @@ html, body{
 body {
   padding:0;
   margin:0;
-  overflow:hidden;
+  overflow:auto;
   font-family:$open;
   background-color: black;
   -webkit-font-smoothing: antialiased;
@@ -204,7 +204,7 @@ footer
 }
 
 .gridproyectos {
-  overflow: hidden;
+  overflow: auto;
   padding: 8em 0 0 0.5em;
   max-width: 76em;
   max-height: 76em;
