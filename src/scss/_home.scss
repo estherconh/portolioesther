@@ -23,6 +23,7 @@ body {
   font-family:$open;
   -webkit-font-smoothing: antialiased;
   background-image:url('../images/fondo.jpg');
+  background-color: #000000;
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -199,6 +200,6 @@ footer
 {
     width: 100%;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     height: 65px;
 }
