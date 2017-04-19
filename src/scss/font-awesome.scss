@@ -3,16 +3,24 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@import "variables";
-@import "mixins";
-@import "path";
-@import "core";
-@import "larger";
-@import "fixed-width";
-@import "list";
-@import "bordered-pulled";
-@import "animated";
-@import "rotated-flipped";
-@import "stacked";
-@import "icons";
-@import "screen-reader";
+ @import 'activate';
+ @import 'hover_grid';
+ @import 'tipos';
+ @import 'ficha_proyectos';
+ @import 'settings';
+ @import 'normalize';
+ @import 'home';
+ @import 'variables';
+ @import 'mixins';
+ @import 'path';
+ @import 'core';
+ @import 'larger';
+ @import 'fixed-width';
+ @import 'list';
+ @import 'bordered-pulled';
+ @import 'animated';
+ @import 'rotated-flipped';
+ @import 'stacked';
+ @import 'icons';
+ @import 'screen-reader';
+ @import 'animated';

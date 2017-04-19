@@ -145,20 +145,13 @@ html, body{
   }
 }
 
-.containerbox{
-  display: inline;
-  align-items: baseline;
-  float: left;
-  padding-top: 120px;
-
-
   /* Small */
   @media(max-width:767px){
 display: block;
   }
 }
 
-.leftside_proyectos {
+.leftside_contacto {
   width: 30%;
   float: left;
   margin-left: 80px;
@@ -176,10 +169,6 @@ display: block;
   }
 }
 
-.leftside_textoproyectos {
-  width: 35%;
-  padding-top: 60px;
-  float: left;
 
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
