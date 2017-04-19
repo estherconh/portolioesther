@@ -149,7 +149,7 @@ body {
   display: inline;
   align-items: baseline;
   float: left;
-  padding-top: 120px;
+  padding-top: 100px;
 
 
   /* Small */
@@ -159,9 +159,10 @@ display: block;
 }
 
 .leftside {
-  width: 30%;
+  width: 23%;
   float: left;
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-bottom: 200px;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
   width: 50%;
