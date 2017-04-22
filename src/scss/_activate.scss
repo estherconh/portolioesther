@@ -145,20 +145,9 @@ html, body{
   }
 }
 
-.containerbox{
-  display: inline;
-  align-items: baseline;
-  float: left;
-  padding-top: 120px;
-
-
-  /* Small */
-  @media(max-width:767px){
-display: block;
-  }
-}
-
 .leftside_proyectos {
+  display: flex;
+  flex-direction: column;
   width: 30%;
   float: left;
   margin-left: 80px;
@@ -172,14 +161,18 @@ display: block;
   }
   /* Small */
   @media(max-width:767px){
-  width: 10%;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 40px;
   }
 }
 
 .leftside_textoproyectos {
+  display: flex;
+  flex-direction: column;
   width: 35%;
   padding-top: 60px;
-  float: left;
+  float: right;
 
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
@@ -190,30 +183,15 @@ display: block;
   }
   /* Small */
   @media(max-width:767px){
-  width: 10%;
-
-  }
-}
-
-.rightside_imagen {
-  width: 62%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  float: right;
-
-
-  /* Small */
-  @media(max-width:767px){
   width: 100%;
-  float: none;
-  }
+  margin-left: 5%;
 
+  }
 }
 
 .contenidoactivate{
-  width: 100%;
   float: left;
-  margin-left: 15%;
+  margin-left: 10%;
 
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
@@ -224,7 +202,8 @@ display: block;
   }
   /* Small */
   @media(max-width:767px){
-  width: 10%;
+  width: 100%;
+  margin-left: 4%;
   }
 }
 
@@ -233,19 +212,24 @@ display: block;
     height: auto;
   }
 
-  .containerboxp{
-    display: inline;
-    align-items: baseline;
+.containerboxp{
+    display: flex;
+    flex-direction: column;
     float: left;
     padding-top: 70px;
     width: 85%;
 
-  }
+    @media(min-width:768px) and (max-width:991px){
+      margin-left: 5%;
+      margin-bottom: 1px;
+      }
 
+  /* Small */
+  @media(max-width:767px){
+  padding-top: 50px;
+    display: inline;
+    }
 
-    /* Small */
-    @media(max-width:767px){
-  display: block;
   }
 
 .logo{
@@ -256,10 +240,76 @@ display: block;
     z-index: 1;
 }
 
-footer
+.footer
 {
   width: 100%;
   bottom: 0;
   position: fixed;
   height: 65px;
+}
+
+.sudadera{
+  /* Small */
+  @media(max-width:767px){
+  width: 100%
+
+  }
+
+}
+
+.containerboxactivate{
+  display: flex;
+  padding-bottom: 60px;
+
+  /* Small */
+  @media(max-width:767px){
+  width: 100%;
+  padding-top: 10px;
+
+  }
+
+}
+
+.camisetaactivate{
+  padding-bottom: 60px;
+  margin-left: 15%;
+
+  /* Small */
+  @media(max-width:767px){
+    width: 100%
+
+    }
+
+  }
+
+.logoactivate{
+  padding-bottom: 60px;
+  padding-right: 5%;
+
+
+  /* Small */
+  @media(max-width:767px){
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  }
+
+}
+
+.textoimagen {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  padding-top: 5%;
+
+  /* Small */
+  @media(max-width:767px){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+
+  }
 }
