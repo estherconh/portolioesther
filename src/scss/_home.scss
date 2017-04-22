@@ -17,17 +17,14 @@ html, body{
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   padding: 0;
   margin: 0;
-  overflow: auto;
   font-family: "Open Sans",sans-serif;
   -webkit-font-smoothing: antialiased;
   background-image: url(../images/fondo.jpg);
   background-color: #000000;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
 }
 
 .nav-btn {
@@ -49,7 +46,7 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      width: 100%;
+      width: 90%;
       position: relative;
       text-align: right;
       margin: 15px 0;
@@ -212,14 +209,10 @@ body {
 .rightside {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
-  margin-bottom: 200px;
   /* Medium */
-@media(min-width:768px) and (max-width:991px){
-  width: 50%;
-  margin-left: 5%;
-  margin-bottom: 1px;
-  }
+  @media(min-width:768px) and (max-width:991px){
+    width: 100%;
+    }
   /* Small */
   @media(max-width:767px){
     width: 100%;
@@ -239,7 +232,7 @@ body {
     z-index: 1;
 }
 
-footer
+.footer
 {
     display: flex;
     flex-direction: row;
@@ -247,7 +240,22 @@ footer
     align-items: center;
     width: 100%;
     bottom: 0;
-    position: fixed;
+    position: relative;
     height: 65px;
+/* Small */
+    @media(max-width:767px){
+      width: 100%;
+      }
 
 }
+
+.profile {
+/* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 80%;
+    }
+  /* Small */
+  @media(max-width:767px){
+    width: 80%;
+    }
+  }
