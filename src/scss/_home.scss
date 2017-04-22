@@ -24,7 +24,6 @@ body {
   background-image: url(../images/fondo.jpg);
   background-color: #000000;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .nav-btn {
@@ -169,13 +168,17 @@ body {
   }
 }
 
-.containerboxhome{
+.containerpp{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     float: left;
-    padding-top: 100px;
     float: left;
+
+    @media(min-width:768px) and (max-width:991px){
+      margin-left: 5%;
+      margin-bottom: 1px;
+      }
 
   /* Small */
   @media(max-width:767px){
@@ -184,16 +187,14 @@ body {
     }
 }
 
-.leftside {
+.leftsidepp {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
-  margin-bottom: 200px;
+  width: 70%;
+  align-items: flex-end;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
   width: 50%;
-  margin-left: 5%;
-  margin-bottom: 1px;
   }
   /* Small */
   @media(max-width:767px){
@@ -206,20 +207,23 @@ body {
 
 }
 
-.rightside {
+.rightsidepp {
   display: flex;
   flex-direction: column;
+  width: 70%;
+  margin-right: 10%;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-    width: 100%;
+    width: 50%;
+    padding-top: 10%;
     }
   /* Small */
   @media(max-width:767px){
-    width: 100%;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 2em;
-    padding-right: 10%;
+    width: 100%;
+    padding-right: 5%;
   }
 
 }
@@ -249,13 +253,14 @@ body {
 
 }
 
-.profile {
+.letras {
+  width: 80%;
 /* Medium */
   @media(min-width:768px) and (max-width:991px){
-    width: 80%;
+    width: 100%;
     }
   /* Small */
   @media(max-width:767px){
-    width: 80%;
+      width: 100%;
     }
   }
