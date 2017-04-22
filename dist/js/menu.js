@@ -4,7 +4,7 @@ $("button").click(function() {
 });
 
 $("nav").click(function(){
-  $(".content").toggleClass('show');
+  $(".content").toggleClass("show");
   $(".burger").toggleClass("focus");
 });
 

@@ -17,15 +17,17 @@ html, body{
 }
 
 body {
-  padding:0;
-  margin:0;
-  overflow:auto;
-  font-family:$open;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  font-family: "Open Sans",sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-image:url('../images/fondo.jpg');
+  background-image: url(../images/fondo.jpg);
   background-color: #000000;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: inherit;
 }
 
 .nav-btn {
@@ -114,8 +116,6 @@ body {
 }
 
 .navigation {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   list-style-type:none;
   padding-left:0px;
@@ -173,47 +173,58 @@ body {
 }
 
 .containerbox{
-  display: inline;
-  align-items: baseline;
-  float: left;
-  padding-top: 100px;
-
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    float: left;
+    padding-top: 100px;
+    float: left;
 
   /* Small */
   @media(max-width:767px){
-display: block;
-  }
+  flex-direction: column;
+  padding-top: 50px;
+    }
 }
 
 .leftside {
-  float: left;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
   margin-bottom: 200px;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
   width: 50%;
-  padding-bottom: 0;
+  margin-left: 5%;
+  margin-bottom: 1px;
   }
   /* Small */
   @media(max-width:767px){
-  width: 100%;
-  }
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    padding-right: 10%;
 }
 
 .rightside {
+  display: flex;
+  flex-direction: column;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
   width: 50%;
-  padding-left: 100px;
-  float: left;
-
+  margin-left: 5%;
+  margin-bottom: 1px;
+  }
   /* Small */
   @media(max-width:767px){
   width: 100%;
-  float: none;
+  margin-left: 1em;
+  margin-top: 500px;
+
   }
 
 }
-
-
 
 .logo{
     float: left;
@@ -225,8 +236,14 @@ display: block;
 
 footer
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     bottom: 0;
     position: fixed;
     height: 65px;
+}
+
 }

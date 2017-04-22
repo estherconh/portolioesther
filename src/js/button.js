@@ -4,6 +4,3 @@ $(document).ready(function() {
       $(".content").toggleClass("show")
     });
   });
-
-
-document.querySelector("html").classList.add("js");

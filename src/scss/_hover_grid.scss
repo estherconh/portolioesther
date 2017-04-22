@@ -11,6 +11,14 @@ $anim-speed: 0.3s;
 		position: relative;
 		border-radius: 3px;
 		box-shadow: 0 0 20px 0 rgba(0,0,0,.05);
+		/* Small */
+	  @media(max-width:767px){
+			content: '';
+			background: linear-gradient(
+				to bottom,
+				rgba(0,0,0,0) 0%,
+				rgba(0,0,0,0.7) 100%
+	  );}
 
 		&:before {
 			content: '';
