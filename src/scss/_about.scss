@@ -16,14 +16,14 @@ html, body{
     width: 100%;
 }
 
-body {
+.fondo_negro_contacto {
+  background-color: #000000;
+  background-image: none;
   padding:0;
   margin:0;
   overflow:auto;
   font-family:$open;
   -webkit-font-smoothing: antialiased;
-  background-image:url('../images/fondo.jpg');
-  background-color: #000000;
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -172,11 +172,11 @@ body {
   }
 }
 
-.containerbox{
-  display: inline;
-  align-items: baseline;
-  float: left;
-  padding-top: 100px;
+.contenidoabout{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10%;
+  padding-top: 10%;
 
 
   /* Small */
@@ -185,10 +185,9 @@ display: block;
   }
 }
 
-.leftside {
+.leftsideesther {
   float: left;
-  margin-left: 200px;
-  margin-bottom: 200px;
+  margin-left: 80px;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
   width: 50%;
@@ -200,10 +199,11 @@ display: block;
   }
 }
 
-.rightside {
-  width: 50%;
-  padding-left: 100px;
+.rightsideesther {
+  width: 100%;
+  padding-left: 170px;
   float: left;
+  margin-right: 10%;
 
   /* Small */
   @media(max-width:767px){
@@ -223,15 +223,85 @@ display: block;
     z-index: 1;
 }
 
-.profile{
-  width: none;
-}
+.profilemini{
+  /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+      width: 80%;
+      }
+    /* Small */
+    @media(max-width:767px){
+      width: 80%;
+      }
+    }
 
 .human
 {
     width: 100%;
     bottom: 0;
-    position: fixed;
     height: 65px;
     color: #fff;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    height: 65px;
+/* Small */
+    @media(max-width:767px){
+      width: 100%;
+      }
+
+}
+
+.curriculo {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row
+
+
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.nombres_skills {
+
+
+}
+
+.puntitos_skills {
+
+
+}
+
+.contenidoabout2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  padding-top: 5%;
+  margin-right: 120px;
+
+  /* Small */
+  @media(max-width:767px){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+
+  }
 }
