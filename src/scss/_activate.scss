@@ -265,26 +265,26 @@ html, body{
   @media(max-width:767px){
   width: 100%;
   padding-top: 10px;
-
   }
 
 }
 
-.camisetaactivate{
+.camisetaactivate-01{
   padding-bottom: 60px;
   margin-left: 15%;
+      width: 110%;
 
   /* Small */
   @media(max-width:767px){
-    width: 100%
-
+    width: 100%;
+    margin-left: 10%;
     }
-
   }
 
 .logoactivate{
   padding-bottom: 60px;
   padding-right: 5%;
+  width: inherit;
 
 
   /* Small */
@@ -293,6 +293,7 @@ html, body{
   padding-top: 10px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 
   }
 
@@ -310,6 +311,7 @@ html, body{
     flex-direction: column;
     width: 100%;
     padding-top: 10px;
+    margin-left: 10%;
 
   }
 }

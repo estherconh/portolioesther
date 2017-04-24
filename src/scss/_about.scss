@@ -188,6 +188,7 @@ display: block;
 .leftsideesther {
   float: left;
   margin-left: 80px;
+  padding-right: 10%;
   /* Medium */
 @media(min-width:768px) and (max-width:991px){
   width: 50%;
@@ -201,7 +202,6 @@ display: block;
 
 .rightsideesther {
   width: 100%;
-  padding-left: 170px;
   float: left;
   margin-right: 10%;
 
@@ -284,7 +284,8 @@ display: block;
 }
 
 .puntitos_skills {
-
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -295,6 +296,7 @@ display: block;
   margin-left: 150px;
   padding-top: 5%;
   margin-right: 120px;
+  align-items: baseline;
 
   /* Small */
   @media(max-width:767px){
@@ -304,4 +306,28 @@ display: block;
     padding-top: 10px;
 
   }
+}
+
+
+.circulo {
+     width: 15px;
+     height: 15px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #fff;
+}
+
+.circulovacio {
+     width: 15px;
+     height: 15px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+      border: 1px solid #fff;
+}
+
+.contenidoskills {
+  display: flex;
+  flex-direction: row;
 }
